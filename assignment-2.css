@@ -19,7 +19,11 @@
 
   /* nav styles */
 
-  .navigation{
+  ..navigation{
+    margin-top: 90px;
+  }
+
+  .navigation-contain{
     display: flex;
     align-items: center;
     width: 80%;
@@ -41,5 +45,21 @@ a{
     color: black;   
 }
 
+/* banner styles */
+.banner{
+    text-align: center;
+    margin-top: 50px;
+    
+}
 
+.btn-explore{
+    margin: 50px 0;
+}
+
+.banner-image{
+    width: 100%;
+    margin: 0px auto;
+    display: block;
+   
+}
   
