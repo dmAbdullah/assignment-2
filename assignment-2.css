@@ -270,3 +270,43 @@ footer {
   text-align: center;
   background-color: rgba(255, 156, 189, 0.655);
 }
+
+
+
+
+
+
+
+
+
+
+@media  screen and (max-width: 688px) {
+  .navigation{
+   visibility: hidden ;
+  }
+
+  .banner{
+    flex-direction: column;
+  }
+
+  .gallery{
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+
+  .images{
+    width: 80%;
+  }
+
+  .gallery-content{
+    text-align: center;
+  }
+  .images{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .feature{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
