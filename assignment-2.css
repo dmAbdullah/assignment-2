@@ -314,6 +314,7 @@ footer {
 
   .navigation-contain{
    flex-direction: column;
+   text-align: center;
    margin: 0;
    border: 0;
    width: 100%;
@@ -327,6 +328,10 @@ footer {
  img{
   max-width: 350px;
  }
+
+.nav-list{
+  text-align: center;
+}
 
   .banner{
     margin-top: 120px;
@@ -375,6 +380,8 @@ text-align: center;
 .achievement-gallery{
   flex-direction: column;
   gap: 0;
+  align-items: center;
+  margin: 0;
 }
 
 .s-images{
