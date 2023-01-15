@@ -122,6 +122,22 @@ a {
   width: 50%;
 }
 
-.feature-img{
+.feature-img-btn{
   width: 50%;
+}
+
+.btn-Experience button{
+  background-color: #FF900E;
+  color: white;
+  font-weight: 400;
+  padding:20px ;
+  border: 0;
+  border-radius: 5px;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+.text-primary{
+  font-size: 30px;
+  font-weight: 600;
 }
