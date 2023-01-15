@@ -10,7 +10,8 @@ body {
   padding: 0;
 }
 
-h2, h3{
+h2,
+h3 {
   margin-bottom: 15px;
 }
 
@@ -18,7 +19,7 @@ button {
   background-color: #FF900E;
   color: white;
   font-weight: 400;
-  padding:15px ;
+  padding: 15px;
   border: 0;
   border-radius: 5px;
   margin-top: 25px;
@@ -68,6 +69,10 @@ a {
 
 }
 
+.b-title{
+  margin-bottom: 20px;
+}
+
 .btn-explore {
   margin-bottom: 20px;
 }
@@ -101,51 +106,69 @@ a {
 
 }
 
+.gallery-title {
+  font-size: 20px;
+}
+
+.text-primary-1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.text-primary-2 {
+  color: #FF900E;
+  font-size: 35px;
+  font-weight: 700;
+}
+
 /* feature section styles */
 
-.feature{
+.feature {
   display: flex;
   margin: 50px auto;
+  margin-top: 100px;
   align-items: center;
   gap: 200px;
   width: 80%;
 }
 
-.title{
-  border-left:5px solid #FF900E;
+.title {
+  border-left: 5px solid #FF900E;
   margin-bottom: 15px;
 }
 
-.blog-content{
+.blog-content {
   margin-top: 20px;
   box-shadow: .1px .1px 25px rgba(193, 193, 193, 0.494);
   padding: 10px;
 }
 
-.feature-content{
+.feature-content {
   width: 50%;
+  margin-bottom: 50px;
 }
 
-.feature-img-btn{
-  width: 50%;
+.feature-img-btn {
+  width: 80%;
+
 }
 
-.feature-img{
+.feature-img {
   width: 100%;
 }
 
-.btn-Experience button{
+.btn-Experience button {
   background-color: #FF900E;
   color: white;
   font-weight: 400;
-  padding:20px ;
+  padding: 20px;
   border: 0;
   border-radius: 5px;
   margin-top: -30px;
   margin-left: -30px;
 }
 
-.text-primary{
+.text-primary-3 {
   font-size: 30px;
   font-weight: 600;
 }
@@ -153,11 +176,12 @@ a {
 /*---------------------------- 
 achievement section styles
 -------------------------- */
-.achievement-content{
+.achievement-content {
   text-align: center;
+  margin: 50px;
 }
 
-.achievement-gallery{
+.achievement-gallery {
   display: flex;
   justify-content: center;
   gap: 100px;
@@ -165,7 +189,7 @@ achievement section styles
 
 }
 
-.card{
+.card {
   text-align: center;
   margin-top: 40px;
   border: 1px solid #FF900E;
@@ -176,19 +200,19 @@ achievement section styles
 Sponsors section
 --------------------- */
 
-.sponsor-content{
+.sponsor-content {
   text-align: center;
-  margin: 40px auto;
+  margin: 80px;
 }
 
-.s-images{
+.s-images {
   display: flex;
   flex-direction: row;
-  justify-content:  space-evenly;
+  justify-content: space-evenly;
 }
 
-footer{
-  margin: 100px;
+footer {
+  margin: 80px;
   padding: 20px;
   text-align: center;
   background-color: rgba(255, 156, 189, 0.655);
