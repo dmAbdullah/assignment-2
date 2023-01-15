@@ -324,6 +324,10 @@ footer {
     text-align: center;
  }
 
+ img{
+  max-width: 350px;
+ }
+
   .banner{
     margin-top: 120px;
 
@@ -341,6 +345,7 @@ footer {
 
   .images{
     width: 100%;
+    justify-content: center;
     grid-template-columns: repeat(1, 1fr);
   }
 
@@ -390,9 +395,7 @@ text-align: center;
 
 }
 
-.social-icons{
-  
-}
+
 
 .subscribe{
   width: 100%;
