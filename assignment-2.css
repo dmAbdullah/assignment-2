@@ -1,65 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@500&family=Work+Sans:wght@700&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@500&family=Work+Sans:wght@700&display=swap');
- 
- *{
-    margin: 0;
-    font-family: Roboto;
- }
-
-  body{
-    margin: 0;
-    padding: 0;
-  }
-
-  /* header styles */
-  header{
-    background-color: rgba(255, 144, 14, 0.1);
-    color: rgb(0, 0, 0);
-  }
-
-  /* nav styles */
-
-  ..navigation{
-    margin-top: 90px;
-  }
-
-  .navigation-contain{
-    display: flex;
-    align-items: center;
-    width: 80%;
-    margin: auto;
-    justify-content: space-between;  
-  }
-
-  ul{
-    display: flex;
-    gap: 20px;
-  }
-
-li{
-    list-style: none; 
+* {
+  margin: 0;
+  font-family: Roboto;
 }
 
-a{
-    text-decoration: none;
-    color: black;   
-}
-
-/* banner styles */
-.banner{
-    text-align: center;
-    margin-top: 50px;
-    
+body {
+  margin: 0;
+  padding: 0;
 }
 
 .btn-explore{
-    margin: 50px 0;
+  
 }
 
-.banner-image{
-    width: 100%;
-    margin: 0px auto;
-    display: block;
-   
+/* header styles */
+header {
+  background-color: rgba(255, 144, 14, 0.1);
+  color: rgb(0, 0, 0);
 }
+
+/* nav styles */
+
+.navigation {}
+
+.navigation-contain {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  height: 80px;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* banner styles */
+
+.banner {
+  text-align: center;
+}
+
+.banner-content {
+  margin: auto 400px 20px 400px;
+
+}
+
+.btn-explore {
+  margin-bottom: 20px;
+}
+
+.image {
+  width: 80%;
+  padding: 15px;
+
+}
+
+/* gallery styles */
+
+.gallery {
+  display: flex;
+  margin: 50px auto;
+  align-items: center;
+  gap: 80px;
+  padding: 100px;
   
+
+}
+
+.images{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  width: 50%;
+
+
+}
+
+.gallery-content {
+  width: 50%;
+
+}
