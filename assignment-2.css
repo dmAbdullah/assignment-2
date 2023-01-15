@@ -141,3 +141,15 @@ a {
   font-size: 30px;
   font-weight: 600;
 }
+
+.achivement-gallery{
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.card{
+  text-align: center;
+  margin-top: 20px;
+  border: 2px solid #FF900E;
+}
